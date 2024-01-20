@@ -183,6 +183,9 @@ h1{
         padding: 15px;
         margin-bottom: 15px;
     }
+    .main img{
+        width: 25%;
+    }
     .hide{
          display: none; 
     }
@@ -230,6 +233,7 @@ h1{
     }
     .main img{
         height: 100px;
+        width: 35%;
     }
     .main .nw-btn{
         margin: 15px 0;
