@@ -24,7 +24,7 @@ h1{
     align-items: center;
     justify-content: center;
     border: 2px solid #666;
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 20px;
     border-radius: 20px;
@@ -58,6 +58,13 @@ h1{
 .main{
     padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main img{
+    width:30% ;
+    height: 150px;
+    margin: auto;
 }
 .hide{
      display: none; 
@@ -67,9 +74,10 @@ h1{
     font-size: 2rem;
     font-weight: 700;
     font-style: italic;
+    margin-bottom: 20px;
 }
 .main .nw-btn{
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     height: 2rem;
     width:8rem;
     color: #02241f;
@@ -78,11 +86,12 @@ h1{
     border: 0;
     border-radius: 5px;
     background-color: #08a78f;
+    margin: auto;
 }
 
 
 
-@media(max-width:880px){
+@media(max-width:881px){
     h1{
         font-size: 4rem;
         font-weight: 800;
@@ -90,42 +99,7 @@ h1{
     .main-box{
         padding: 10px 15px;
        /* border: 2px solid #666;*/
-        width: 60%;
-    }
-    .game{
-        border: 2px solid #666;
         width: 50%;
-        padding: 15px;
-        border-radius: 20px;
-    }
-    .main{
-        padding: 15px;
-        margin-bottom: 15px;
-    }
-    .hide{
-         display: none; 
-    }
-    .main .msg{
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-    .main .nw-btn{
-        margin: 15px 0;
-        height: 1.5rem;
-        width:7rem;
-        font-size: 1rem;
-        }
-}
-
-@media(max-width:660px){
-    h1{
-        font-size: 3rem;
-        font-weight: 700;
-    }
-    .main-box{
-        padding: 10px 15px;
-       /* border: 2px solid #666;*/
-        width: 60%;
     }
     .game{
         border: 2px solid #666;
@@ -149,10 +123,47 @@ h1{
         height: 1.5rem;
         width:7rem;
         font-size: 1rem;
+        margin: auto;
         }
 }
 
-@media(max-width:566px){
+@media(max-width:765px){
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .main-box{
+        padding: 10px 15px;
+       /* border: 2px solid #666;*/
+        width: 70%;
+    }
+    .game{
+        border: 2px solid #666;
+        width: 60%;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .main{
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .hide{
+         display: none; 
+    }
+    .main .msg{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .main .nw-btn{
+        margin: 15px 0;
+        height: 1.5rem;
+        width:7rem;
+        font-size: 1rem;
+        margin: auto;
+        }
+}
+
+@media(max-width:637px){
     h1{
         font-size: 2rem;
         font-weight: 700;
@@ -184,9 +195,10 @@ h1{
         height: 1.5rem;
         width:7rem;
         font-size: 1rem;
+        margin: auto;
         }
 }
-@media(max-width:468px){
+@media(max-width:558px){
     h1{
         font-size: 2rem;
         font-weight: 700;
@@ -216,10 +228,14 @@ h1{
         font-size: 1.5rem;
         font-weight: 700;
     }
+    .main img{
+        height: 100px;
+    }
     .main .nw-btn{
         margin: 15px 0;
         height: 1.5rem;
         width:7rem;
         font-size: 1rem;
+        margin: auto;
         }
 }
